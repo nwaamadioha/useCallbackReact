@@ -13,8 +13,12 @@ function App() {
   }, [sum])
   return (
     <main className='App'>
-      <input type='text' placeholder='input' value={userInput} onChange={(e) => setUserInput(e.target.value)} />
-
+      <input 
+        type='text' 
+        placeholder='input' 
+        value={userInput} 
+        onChange={(e) => setUserInput(e.target.value)} 
+      />
     </main>
   );
 }
